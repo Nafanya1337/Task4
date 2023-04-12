@@ -75,7 +75,7 @@ public class GridActivity extends AppCompatActivity {
     }
 
     public void goToInclude(View view) {
-        Intent intent = new Intent(this, IncludeActivity.class);
+        Intent intent = new Intent(this, UsingInnerActivity.class);
         startActivity(intent);
     }
 }
